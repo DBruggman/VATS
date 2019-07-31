@@ -1,0 +1,744 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="BP_VATS_HUD"
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=/Script/UMG.Border Name="AcidityBorder"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_1157"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_1671"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_1788"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_421"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_684"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_800"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="Border_864"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_2"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="TemperatureBorder"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Border Name="TrashBorder"
+         Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="QuitButton"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_299"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_355"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="Quit_Horizontal_Box"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Slider Name="AciditySlider"
+      End Object
+      Begin Object Class=/Script/UMG.Slider Name="TemperatureSlider"
+      End Object
+      Begin Object Class=/Script/UMG.Slider Name="TrashSlider"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="AcidityLabel"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="QuitLabel"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TemperatureLabel"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TrashLabel"
+      End Object
+      Begin Object Class=/Script/UMG.UniformGridPanel Name="UniformGridPanel_130"
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_10"
+         End Object
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_12"
+         End Object
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_14"
+         End Object
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_15"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.UniformGridPanel Name="UniformGridPanel_369"
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_1"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.UniformGridPanel Name="UniformGridPanel_568"
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.UniformGridPanel Name="UniformGridPanel_674"
+         Begin Object Class=/Script/UMG.UniformGridSlot Name="UniformGridSlot_0"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_5"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Get_TrashActive_bIsEnabled_0"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Get_TrashSlider_Value_0"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__TrashActive_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__QuitButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="AcidityBorder"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            Parent=Border'"BP_VATS_HUD:WidgetTree.AcidityBorder"'
+            Content=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_355"'
+         End Object
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         BrushColor=(R=0.046875,G=0.046875,B=0.046875,A=1.000000)
+         DesiredSizeScale=(X=100.000000,Y=100.000000)
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130.UniformGridSlot_15"'
+         bExpandedInDesigner=True
+         DisplayLabel="Acidity Border"
+      End Object
+      Begin Object Name="Border_1157"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_1157"'
+            Content=TextBlock'"BP_VATS_HUD:WidgetTree.TemperatureLabel"'
+         End Object
+         HorizontalAlignment=HAlign_Center
+         VerticalAlignment=VAlign_Center
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         BrushColor=(R=0.000000,G=0.000000,B=0.000000,A=0.350000)
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_568.UniformGridSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_1671"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_1671"'
+            Content=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_674"'
+         End Object
+         HorizontalAlignment=HAlign_Center
+         VerticalAlignment=VAlign_Center
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         Background=(ImageSize=(X=640.000000,Y=427.000000),ResourceObject=Texture2D'"/Game/Materials/Images/Acid_Picture.Acid_Picture"')
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox_355.HorizontalBoxSlot_4"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_1788"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_1788"'
+            Content=TextBlock'"BP_VATS_HUD:WidgetTree.AcidityLabel"'
+         End Object
+         HorizontalAlignment=HAlign_Center
+         VerticalAlignment=VAlign_Center
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         Background=(TintColor=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=0.350000)))
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_674.UniformGridSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_421"
+         Begin Object Name="BorderSlot_0"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_421"'
+            Content=Button'"BP_VATS_HUD:WidgetTree.QuitButton"'
+         End Object
+         HorizontalAlignment=HAlign_Center
+         VerticalAlignment=VAlign_Center
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         BrushColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.Quit_Horizontal_Box.HorizontalBoxSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_684"
+         Begin Object Name="BorderSlot_1"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_684"'
+            Content=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_369"'
+         End Object
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         Background=(ImageSize=(X=960.000000,Y=541.000000),ResourceObject=Texture2D'"/Game/Materials/Images/Trash_Picture.Trash_Picture"')
+         Slots(0)=BorderSlot'"BorderSlot_1"'
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox.HorizontalBoxSlot_2"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_800"
+         Begin Object Name="BorderSlot_0"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_800"'
+            Content=TextBlock'"BP_VATS_HUD:WidgetTree.TrashLabel"'
+         End Object
+         HorizontalAlignment=HAlign_Center
+         VerticalAlignment=VAlign_Center
+         Background=(TintColor=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=0.350000)))
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_369.UniformGridSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Border_864"
+         Begin Object Name="BorderSlot_2"
+            Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+            Parent=Border'"BP_VATS_HUD:WidgetTree.Border_864"'
+            Content=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_568"'
+         End Object
+         Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+         Background=(ImageSize=(X=720.000000,Y=540.000000),ResourceObject=Texture2D'"/Game/Materials/Images/Temperature_Picture.Temperature_Picture"')
+         Slots(0)=BorderSlot'"BorderSlot_2"'
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox_299.HorizontalBoxSlot_3"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TemperatureBorder"
+         Begin Object Name="BorderSlot_0"
+            Parent=Border'"BP_VATS_HUD:WidgetTree.TemperatureBorder"'
+            Content=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_299"'
+         End Object
+         Background=(TintColor=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)))
+         Slots(0)=BorderSlot'"BorderSlot_0"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130.UniformGridSlot_12"'
+         DisplayLabel="Temperature Border"
+      End Object
+      Begin Object Name="TrashBorder"
+         Begin Object Name="BorderSlot_1"
+            Parent=Border'"BP_VATS_HUD:WidgetTree.TrashBorder"'
+            Content=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox"'
+         End Object
+         Background=(ImageSize=(X=960.000000,Y=541.000000),ResourceObject=Texture2D'"/Game/Materials/Images/Trash_Picture.Trash_Picture"',Tiling=Both)
+         BrushColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+         Slots(0)=BorderSlot'"BorderSlot_1"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130.UniformGridSlot_10"'
+         DisplayLabel="Trash Border"
+      End Object
+      Begin Object Name="QuitButton"
+         Begin Object Name="ButtonSlot_1"
+            Padding=(Left=50.000000,Top=25.000000,Right=50.000000,Bottom=25.000000)
+            Parent=Button'"BP_VATS_HUD:WidgetTree.QuitButton"'
+            Content=TextBlock'"BP_VATS_HUD:WidgetTree.QuitLabel"'
+         End Object
+         BackgroundColor=(R=1.000000,G=0.000000,B=0.115187,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_1"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_421.BorderSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="Quit Button"
+      End Object
+      Begin Object Name="HorizontalBox"
+         Begin Object Name="HorizontalBoxSlot_0"
+            Size=(SizeRule=Fill)
+            VerticalAlignment=VAlign_Center
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox"'
+            Content=Slider'"BP_VATS_HUD:WidgetTree.TrashSlider"'
+         End Object
+         Begin Object Name="HorizontalBoxSlot_2"
+            Size=(SizeRule=Fill)
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_684"'
+         End Object
+         Slots(0)=HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+         Slots(1)=HorizontalBoxSlot'"HorizontalBoxSlot_0"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.TrashBorder.BorderSlot_1"'
+         bExpandedInDesigner=True
+         DisplayLabel="Horizontal Box"
+      End Object
+      Begin Object Name="HorizontalBox_299"
+         Begin Object Name="HorizontalBoxSlot_1"
+            Size=(SizeRule=Fill)
+            VerticalAlignment=VAlign_Center
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_299"'
+            Content=Slider'"BP_VATS_HUD:WidgetTree.TemperatureSlider"'
+         End Object
+         Begin Object Name="HorizontalBoxSlot_3"
+            Size=(SizeRule=Fill)
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_299"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_864"'
+         End Object
+         Slots(0)=HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+         Slots(1)=HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.TemperatureBorder.BorderSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="HorizontalBox_355"
+         Begin Object Name="HorizontalBoxSlot_1"
+            Size=(SizeRule=Fill)
+            VerticalAlignment=VAlign_Center
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_355"'
+            Content=Slider'"BP_VATS_HUD:WidgetTree.AciditySlider"'
+         End Object
+         Begin Object Name="HorizontalBoxSlot_4"
+            Size=(SizeRule=Fill)
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.HorizontalBox_355"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_1671"'
+         End Object
+         Slots(0)=HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+         Slots(1)=HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.AcidityBorder.BorderSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Quit_Horizontal_Box"
+         Begin Object Name="HorizontalBoxSlot_1"
+            Size=(SizeRule=Fill)
+            Parent=HorizontalBox'"BP_VATS_HUD:WidgetTree.Quit_Horizontal_Box"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_421"'
+         End Object
+         Slots(0)=HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+         Slot=UniformGridSlot'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130.UniformGridSlot_14"'
+         bExpandedInDesigner=True
+         DisplayLabel="Quit_Horizontal_Box"
+      End Object
+      Begin Object Name="AciditySlider"
+         WidgetStyle=(NormalThumbImage=(ImageSize=(X=25.000000,Y=40.000000),TintColor=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.215910,A=1.000000))),BarThickness=20.000000)
+         SliderHandleColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000)
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox_355.HorizontalBoxSlot_1"'
+         DisplayLabel="Acidity Slider"
+      End Object
+      Begin Object Name="TemperatureSlider"
+         WidgetStyle=(NormalThumbImage=(ImageSize=(X=25.000000,Y=40.000000),TintColor=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.215910,A=1.000000))),BarThickness=20.000000)
+         SliderHandleColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000)
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox_299.HorizontalBoxSlot_1"'
+         DisplayLabel="Temperature Slider"
+      End Object
+      Begin Object Name="TrashSlider"
+         WidgetStyle=(NormalThumbImage=(ImageSize=(X=25.000000,Y=40.000000),TintColor=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.215910,A=1.000000))),BarThickness=20.000000)
+         SliderHandleColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000)
+         Slot=HorizontalBoxSlot'"BP_VATS_HUD:WidgetTree.HorizontalBox.HorizontalBoxSlot_0"'
+         DisplayLabel="Trash Slider"
+      End Object
+      Begin Object Name="AcidityLabel"
+         Text=NSLOCTEXT("[3953BA5447E10EDE18E3DBA7AD006DA6]", "42A97B3B4541BC0858D82583486727C5", "Acidity")
+         ColorAndOpacity=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000))
+         Font=(Size=64)
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_1788.BorderSlot_0"'
+         DisplayLabel="Acidity Label"
+      End Object
+      Begin Object Name="QuitLabel"
+         Text=NSLOCTEXT("[3953BA5447E10EDE18E3DBA7AD006DA6]", "3F670B094DE2D345DD40B9A7A9C5E850", "Exit")
+         Font=(Size=64)
+         Slot=ButtonSlot'"BP_VATS_HUD:WidgetTree.QuitButton.ButtonSlot_1"'
+         DisplayLabel="Quit Label"
+      End Object
+      Begin Object Name="TemperatureLabel"
+         Text=NSLOCTEXT("[3953BA5447E10EDE18E3DBA7AD006DA6]", "2EF63D2249106565685379B965C7E087", "Temperature")
+         ColorAndOpacity=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000))
+         Font=(Size=64)
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_1157.BorderSlot_0"'
+         DisplayLabel="Temperature Label"
+      End Object
+      Begin Object Name="TrashLabel"
+         Text=NSLOCTEXT("[3953BA5447E10EDE18E3DBA7AD006DA6]", "3DBB5EAB49CA05687AF84EA4B6E1575F", "Trash")
+         ColorAndOpacity=(SpecifiedColor=(R=0.000000,G=1.000000,B=0.151564,A=1.000000))
+         Font=(Size=64)
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_800.BorderSlot_0"'
+         DisplayLabel="Trash Label"
+      End Object
+      Begin Object Name="UniformGridPanel_130"
+         Begin Object Name="UniformGridSlot_10"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.TrashBorder"'
+         End Object
+         Begin Object Name="UniformGridSlot_12"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Row=2
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.TemperatureBorder"'
+         End Object
+         Begin Object Name="UniformGridSlot_14"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Row=3
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130"'
+            Content=HorizontalBox'"BP_VATS_HUD:WidgetTree.Quit_Horizontal_Box"'
+         End Object
+         Begin Object Name="UniformGridSlot_15"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Row=1
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_130"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.AcidityBorder"'
+         End Object
+         Slots(0)=UniformGridSlot'"UniformGridSlot_10"'
+         Slots(1)=UniformGridSlot'"UniformGridSlot_12"'
+         Slots(2)=UniformGridSlot'"UniformGridSlot_14"'
+         Slots(3)=UniformGridSlot'"UniformGridSlot_15"'
+         bOverride_Cursor=True
+         bExpandedInDesigner=True
+         Cursor=Crosshairs
+      End Object
+      Begin Object Name="UniformGridPanel_369"
+         Begin Object Name="UniformGridSlot_1"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_369"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_800"'
+         End Object
+         Slots(0)=UniformGridSlot'"UniformGridSlot_1"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_684.BorderSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="UniformGridPanel_568"
+         Begin Object Name="UniformGridSlot_0"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_568"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_1157"'
+         End Object
+         Slots(0)=UniformGridSlot'"UniformGridSlot_0"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_864.BorderSlot_2"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="UniformGridPanel_674"
+         Begin Object Name="UniformGridSlot_0"
+            Parent=UniformGridPanel'"BP_VATS_HUD:WidgetTree.UniformGridPanel_674"'
+            Content=Border'"BP_VATS_HUD:WidgetTree.Border_1788"'
+         End Object
+         Slots(0)=UniformGridSlot'"UniformGridSlot_0"'
+         Slot=BorderSlot'"BP_VATS_HUD:WidgetTree.Border_1671.BorderSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      RootWidget=UniformGridPanel'"UniformGridPanel_130"'
+      AllWidgets(0)=UniformGridPanel'"UniformGridPanel_130"'
+      AllWidgets(1)=Border'"TrashBorder"'
+      AllWidgets(2)=HorizontalBox'"HorizontalBox"'
+      AllWidgets(3)=Border'"Border_684"'
+      AllWidgets(4)=UniformGridPanel'"UniformGridPanel_369"'
+      AllWidgets(5)=Border'"Border_800"'
+      AllWidgets(6)=TextBlock'"TrashLabel"'
+      AllWidgets(7)=Slider'"TrashSlider"'
+      AllWidgets(8)=Border'"TemperatureBorder"'
+      AllWidgets(9)=HorizontalBox'"HorizontalBox_299"'
+      AllWidgets(10)=Border'"Border_864"'
+      AllWidgets(11)=UniformGridPanel'"UniformGridPanel_568"'
+      AllWidgets(12)=Border'"Border_1157"'
+      AllWidgets(13)=TextBlock'"TemperatureLabel"'
+      AllWidgets(14)=Slider'"TemperatureSlider"'
+      AllWidgets(15)=HorizontalBox'"Quit_Horizontal_Box"'
+      AllWidgets(16)=Border'"Border_421"'
+      AllWidgets(17)=Button'"QuitButton"'
+      AllWidgets(18)=TextBlock'"QuitLabel"'
+      AllWidgets(19)=Border'"AcidityBorder"'
+      AllWidgets(20)=HorizontalBox'"HorizontalBox_355"'
+      AllWidgets(21)=Border'"Border_1671"'
+      AllWidgets(22)=UniformGridPanel'"UniformGridPanel_674"'
+      AllWidgets(23)=Border'"Border_1788"'
+      AllWidgets(24)=TextBlock'"AcidityLabel"'
+      AllWidgets(25)=Slider'"AciditySlider"'
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberParent=Class'"/Script/Engine.KismetSystemLibrary"',MemberName="PrintString")
+         NodePosX=448
+         NodePosY=704
+         AdvancedPinDisplay=Shown
+         EnabledState=DevelopmentOnly
+         NodeGuid=52BA6A9E48CE0CD2B99952AF95A12E94
+         CustomProperties Pin (PinId=C2A5A462478FDD167B6E2FB79DAEC871,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ComponentBoundEvent_0 93CEA92848C9E19DA2CEB2BADEA10155,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B797F72E4B516039CAD5F7AB7C93C016,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EA4A4DE6453BCD5C7805469BAFD2A054,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/Engine.KismetSystemLibrary"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultObject="/Script/Engine.Default__KismetSystemLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A039F1F54306B73590A8328E3DB17D96,PinName="WorldContextObject",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7CBB62C84864169ABA254F8D47E81884,PinName="InString",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="Trasssshhhh",AutogeneratedDefaultValue="Hello",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7F2B8B504903028EE6E414A23A2D8D9D,PinName="bPrintToScreen",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C125283E463F9501174AE4A173598024,PinName="bPrintToLog",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E00EB4544BCE699F3F5B69B310CDC944,PinName="TextColor",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/CoreUObject.LinearColor"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="(R=0.424482,G=0.484375,B=0.058024,A=1.000000)",AutogeneratedDefaultValue="(R=0.000000,G=0.660000,B=1.000000,A=1.000000)",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F702EACB43198BAD8E137DA6BF08BBBE,PinName="Duration",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="2.000000",AutogeneratedDefaultValue="2.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_1"
+         FunctionReference=(MemberParent=Class'"/Script/Engine.KismetSystemLibrary"',MemberName="PrintString")
+         NodePosX=272
+         NodePosY=1152
+         AdvancedPinDisplay=Hidden
+         EnabledState=DevelopmentOnly
+         NodeGuid=665307EB47B50F0C7B9722B9712EDE04
+         CustomProperties Pin (PinId=3DD6A4024E11903C5FB53D983403D18B,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_ComponentBoundEvent_2 E91951634503A899A4DD5E876C4FDFD1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A7EB929C4A6B3F59A7D392B42F7DB0D5,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F4E06FD94B168674DE15FDBBDF26AA14,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/Engine.KismetSystemLibrary"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultObject="/Script/Engine.Default__KismetSystemLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7A38651442BA407B3021429AA6ACDCA0,PinName="WorldContextObject",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E02AF1C545CADB74FF660C94B99A8D1C,PinName="InString",PinType.PinCategory="string",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="Hello",AutogeneratedDefaultValue="Hello",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0A33FDD5495DD958BE82ECA2974BF37A,PinName="bPrintToScreen",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AB06E0A64C820671C29211A88B60CEEE,PinName="bPrintToLog",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BE35E07B4FAA098ABB0BB9919331BEF3,PinName="TextColor",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/CoreUObject.LinearColor"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="(R=0.000000,G=0.660000,B=1.000000,A=1.000000)",AutogeneratedDefaultValue="(R=0.000000,G=0.660000,B=1.000000,A=1.000000)",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FB633DA4416C9FDEE6329A96D343F275,PinName="Duration",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="2.000000",AutogeneratedDefaultValue="2.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=True,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_5"
+         FunctionReference=(MemberParent=BlueprintGeneratedClass'"/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter_C"',MemberName="Return From Menu",MemberGuid=FF34F3364EA9EE13B1A1A9AAF3E648FA)
+         NodePosX=512
+         NodePosY=1024
+         NodeGuid=B68C9CFD4BE7309CE81A369B86F7D991
+         CustomProperties Pin (PinId=88ABE2474FDF6906FB5B67AE91B0AEAC,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8780436B4E6D285A6160DFB83C993364,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=89C47C9641447708F2F8ACA8DF30D3F2,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=BlueprintGeneratedClass'"/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_VariableGet_0 5E8383B84735951C0949749C2F7A3168,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_0"
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'"/Script/UMG.Button"'
+         ComponentPropertyName="TrashButton"
+         DelegatePropertyDisplayName=NSLOCTEXT("UObjectDisplayNames", "Button:OnClicked", "On Clicked")
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__TrashActive_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         NodePosY=656
+         NodeGuid=F9D4F8DE4D5FD6F1AADECCA70FECC1DE
+         CustomProperties Pin (PinId=AA2F714249E642F2626899A60794D52D,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'"/Game/UI/BP_VATS_HUD.BP_VATS_HUD_C"',MemberName="BndEvt__TrashActive_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=93CEA92848C9E19DA2CEB2BADEA10155,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 C2A5A462478FDD167B6E2FB79DAEC871,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_2"
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'"/Script/UMG.Button"'
+         ComponentPropertyName="QuitButton"
+         DelegatePropertyDisplayName=NSLOCTEXT("UObjectDisplayNames", "Button:OnClicked", "On Clicked")
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"
+         NodePosY=1024
+         NodeGuid=09EF720B42F1CCD28FCE01A81904466F
+         CustomProperties Pin (PinId=E624A6274DC9E046048F2780F775ADE4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'"/Game/UI/BP_VATS_HUD.BP_VATS_HUD_C"',MemberName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E91951634503A899A4DD5E876C4FDFD1,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_1 3DD6A4024E11903C5FB53D983403D18B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=E1A1286842009E24D86A47901C69EC95
+         CustomProperties Pin (PinId=D7B039C8402C29E58D95BE88AD228ADC,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F266362545A0BAE4B1E642B92F038575,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=74AF854A4B143585D7F150B469DC0AF3,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=200
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=017045404F0FB4B3EB01659D47939F04
+         CustomProperties Pin (PinId=715117344FDB6F58BDD34ABE472EE929,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F9923161418942533C704285DF895F88,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=400
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=E8A4A1A54D7FBBE60141E3A43680D256
+         CustomProperties Pin (PinId=D87FE33445191595C084CEB4B6A7B08A,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2E64568B4443169686DC85869FEEEF3D,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1A0C23C142C1661B2805919734260918,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3B27875E458460C9FC3ED5BF6CA2FC65,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0"
+         VariableReference=(MemberName="Scientist",MemberGuid=01436748473829C29B414AAD6619BD88,bSelfContext=True)
+         NodePosY=1120
+         NodeGuid=4616CA514836FB85538DF1A896ACFA8D
+         CustomProperties Pin (PinId=5E8383B84735951C0949749C2F7A3168,PinName="Scientist",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=BlueprintGeneratedClass'"/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_5 89C47C9641447708F2F8ACA8DF30D3F2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=30BFD74E407890B150A6D7BC5D60E95A,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/BP_VATS_HUD.BP_VATS_HUD_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_Event'"K2Node_Event_0"'
+      Nodes(1)=K2Node_Event'"K2Node_Event_1"'
+      Nodes(2)=K2Node_Event'"K2Node_Event_2"'
+      Nodes(3)=K2Node_ComponentBoundEvent'"K2Node_ComponentBoundEvent_0"'
+      Nodes(4)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      Nodes(5)=K2Node_ComponentBoundEvent'"K2Node_ComponentBoundEvent_2"'
+      Nodes(6)=K2Node_VariableGet'"K2Node_VariableGet_0"'
+      Nodes(7)=K2Node_CallFunction'"K2Node_CallFunction_5"'
+      Nodes(8)=K2Node_CallFunction'"K2Node_CallFunction_1"'
+      bAllowDeletion=False
+      GraphGuid=8F4AFA854E9278DA962AEABF5ECD11DC
+   End Object
+   Begin Object Name="Get_TrashActive_bIsEnabled_0"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         ExtraFlags=469893120
+         FunctionReference=(MemberName="Get_TrashActive_bIsEnabled_0")
+         bIsEditable=True
+         NodeGuid=823DC980445CFD5B7345EEAD3BA6DBFE
+         CustomProperties Pin (PinId=7ECC915A4076F1105FB7CDAE2FABE5BB,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionResult_0 8AECAA4847B913483ACDC1AB17BFB02D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionResult_0"
+         FunctionReference=(MemberName="Get_TrashActive_bIsEnabled_0")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=AE063C7E407F67CAD9D6D690786028F7
+         CustomProperties Pin (PinId=8AECAA4847B913483ACDC1AB17BFB02D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 7ECC915A4076F1105FB7CDAE2FABE5BB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3460E7CD41C4C710DDA5778CC49AA5DB,PinName="ReturnValue",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="true",AutogeneratedDefaultValue="true",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="ReturnValue",PinType=(PinCategory="bool"),DesiredPinDirection=EGPD_Input,PinDefaultValue="true")
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_FunctionResult'"K2Node_FunctionResult_0"'
+      GraphGuid=214497924B4145A4E7925B9050B3A558
+   End Object
+   Begin Object Name="Get_TrashSlider_Value_0"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         ExtraFlags=469893120
+         FunctionReference=(MemberName="Get_TrashSlider_Value_0")
+         bIsEditable=True
+         NodeGuid=B93606014C86742FD2E2F88B21E88F81
+         CustomProperties Pin (PinId=D70B52B648A23C76A78404B24C65B62A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionResult_0 274F54B84EAC4AA3D3CD9BB2898072CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionResult_0"
+         FunctionReference=(MemberName="Get_TrashSlider_Value_0")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=6910AD02473C4C8162C15FB30DEDE1A0
+         CustomProperties Pin (PinId=274F54B84EAC4AA3D3CD9BB2898072CD,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 D70B52B648A23C76A78404B24C65B62A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=961D46DD440AE8A097016DA8D5824F2A,PinName="ReturnValue",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="ReturnValue",PinType=(PinCategory="float"),DesiredPinDirection=EGPD_Input)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_FunctionResult'"K2Node_FunctionResult_0"'
+      GraphGuid=D8B2A70C4257B55675F5D7AA992E3063
+   End Object
+   Begin Object Name="BndEvt__TrashActive_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="BndEvt__TrashActive_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=29B101204C30D289B3013EBA6F2271F8
+         CustomProperties Pin (PinId=54C6E06A4DB631B6477713AF155BC45F,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 98A6A3F9448A79A0CD5CB3894B59845F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_VATS_HUD",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=FC4C42534E97FBB414857885C4217D0B
+         CustomProperties Pin (PinId=98A6A3F9448A79A0CD5CB3894B59845F,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 54C6E06A4DB631B6477713AF155BC45F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C64CE87549D9D3DB8DAD98A2C81C1E77,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B9E0DB794B5E4FD6914154AAD85AA0EA,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/BP_VATS_HUD.SKEL_BP_VATS_HUD_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=9EF110FC471686AA257123A8B3E708B0,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=33E927794EB6C950D683ADB53C9B2CF6
+   End Object
+   Begin Object Name="BndEvt__QuitButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="BndEvt__QuitButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=F44270AB4729078978992F86813C1E97
+         CustomProperties Pin (PinId=82F8989E487393E2B6077399504723BD,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 AE42AE5540F265B42F1606B37649F0E5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_VATS_HUD",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=447CB0BE49EFCB983D061E8832653586
+         CustomProperties Pin (PinId=AE42AE5540F265B42F1606B37649F0E5,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 82F8989E487393E2B6077399504723BD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=49AD8C6047DD885D8A55F2B138E558FC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5A439C434F2A0FE33DB574BA1D496F75,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/UI/BP_VATS_HUD.SKEL_BP_VATS_HUD_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1160242F495D3222B5FB5CBBE660BA01,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=9011785846D0ACF327C07D868FF243FE
+   End Object
+   InclusiveWidgets=26
+   EstimatedTemplateSize=22872
+   WidgetTree="WidgetTree"
+   ParentClass=Class'"/Script/UMG.UserWidget"'
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   FunctionGraphs(0)=EdGraph'"Get_TrashActive_bIsEnabled_0"'
+   FunctionGraphs(1)=EdGraph'"Get_TrashSlider_Value_0"'
+   NewVariables(0)=(VarName="TrashOn",VarGuid=8722AD6F476F1F01568764829223C69B,VarType=(PinCategory="bool"),FriendlyName="Trash On",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541,MetaDataArray=((DataKey="MultiLine",DataValue="true")))
+   NewVariables(1)=(VarName="Scientist",VarGuid=01436748473829C29B414AAD6619BD88,VarType=(PinCategory="object",PinSubCategoryObject=BlueprintGeneratedClass'"/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter_C"'),FriendlyName="Scientist",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=2053,MetaDataArray=((DataKey="MultiLine",DataValue="true"),(DataKey="ExposeOnSpawn",DataValue="true")))
+   NewVariables(2)=(VarName="NewVar_0",VarGuid=359E0054499EDAB46BD07184B43E505F,VarType=(PinCategory="object",PinSubCategoryObject=BlueprintGeneratedClass'"/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter_C"'),FriendlyName="New Var 0",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=67589,MetaDataArray=((DataKey="MultiLine",DataValue="true")))
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="BP VATS HUD"
+   CategorySorting(2)=""
+   CategorySorting(3)="Default"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/UI/BP_VATS_HUD.BP_VATS_HUD:Get_TrashActive_bIsEnabled_0,SavedViewOffset=(X=-569.705872,Y=-361.000000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath=/Game/UI/BP_VATS_HUD.BP_VATS_HUD:Get_TrashSlider_Value_0,SavedViewOffset=(X=-657.705872,Y=-354.000000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(2)=(EditedObjectPath=/Game/UI/BP_VATS_HUD.BP_VATS_HUD:EventGraph,SavedViewOffset=(X=-383.130310,Y=389.673340),SavedZoomAmount=0.750000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'"BP_VATS_HUD_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=E12D036B450C8D9BCFB5B280EB842917
+End Object
