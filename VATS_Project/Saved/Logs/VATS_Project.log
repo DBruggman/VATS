@@ -583,3 +583,802 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.31-02.44.54:140][665]LogSlate: Window 'Color Picker' being destroyed
 [2019.07.31-02.45.01:357][529]LogSlate: Window 'Color Picker' being destroyed
 [2019.07.31-02.45.31:376][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.07.31-02.55.21:119][249]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] InputAction Event references unknown Action 'Interact' for  InputAction Interact
+[2019.07.31-02.55.21:132][249]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] [0726.48] Compile of BP_PlayerCharacter successful, but with 1 Warning(s) [in 67 ms] (/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter)
+[2019.07.31-02.55.21:162][249]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.31-02.55.21:168][249]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_Interactive_Console.BP_Interactive_Console
+[2019.07.31-02.55.21:891][249]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.07.31-02.55.23:405][249]LogSlate: Took 0.007988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.31-02.55.23:866][250]LogSlate: Took 0.013483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.31-02.55.37:265][794]LogSlate: Window 'BP_Interactive_Console' being destroyed
+[2019.07.31-02.56.10:136][659]BlueprintLog: New page: Compile BP_Interactive_Console
+[2019.07.31-02.56.10:714][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.07.31-02.56.13:197][947]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.31-02.56.13:289][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.31-02.56.13:305][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.31-02.56.13:352][947]PIE: New page: PIE session: FirstPersonExampleMap (Jul 30, 2019, 12:56:13 PM)
+[2019.07.31-02.56.13:394][947]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.31-02.56.13:526][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131654s)
+[2019.07.31-02.56.13:536][947]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.31-02.56.13:547][947]LogPlayLevel: PIE: World Init took: (0.020878s)
+[2019.07.31-02.56.13:547][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.152874s)
+[2019.07.31-02.56.13:576][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.07.31-02.56.13:598][947]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.31-02.56.13:614][947]LogInit: FAudioDevice initialized.
+[2019.07.31-02.56.13:677][947]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.07.31-02.56.13:799][947]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.30-19.56.13
+[2019.07.31-02.56.13:847][947]LogWorld: Bringing up level for play took: 0.048844
+[2019.07.31-02.56.14:192][947]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.07.31-02.56.14:276][947]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.07.31-02.56.14:276][947]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.07.31-02.56.14:299][947]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.456
+[2019.07.31-02.56.14:299][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.31-02.56.20:826][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.31-02.56.20:844][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.31-02.56.20:914][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.31-02.56.20:915][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.31-02.56.20:960][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.31-02.56.20:997][666]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.07.31-02.56.21:056][667]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.07.31-02.56.23:761][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.31-02.56.24:723][ 80]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.07.31-02.56.26:455][ 80]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.31-02.56.26:598][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.31-02.56.32:096][687]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.31-02.56.48:646][601]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.07.31-02.56.50:268][601]LogSlate: Window 'Save Content' being destroyed
+[2019.07.31-02.56.50:378][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Interactive_Console" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Interactive_Console.uasset" SILENT=true
+[2019.07.31-02.56.50:619][601]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_Console02786DC34F9100FA227A4BAA3CC04E35.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Interactive_Console.uasset'
+[2019.07.31-02.56.50:661][601]Cmd: MAP LOAD FILE="../../../../../Repos/VATS/VATS_Project/Content/Levels/VATS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.31-02.56.50:668][601]LightingResults: New page: Lighting Build
+[2019.07.31-02.56.50:669][601]LoadErrors: New page: Loading map: VATS.umap
+[2019.07.31-02.56.50:702][601]MapCheck: New page: Map Check
+[2019.07.31-02.56.50:702][601]LightingResults: New page: Lighting Build
+[2019.07.31-02.56.50:751][601]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.07.31-02.56.51:016][601]LogAIModule: Creating AISystem for world VATS
+[2019.07.31-02.56.51:175][601]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.31-02.56.51:204][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.07.31-02.56.51:223][601]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.31-02.56.51:224][601]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
+[2019.07.31-02.56.51:224][601]LogFileHelpers: Loading map 'VATS' took 0.585
+[2019.07.31-02.56.51:245][601]LogSlate: Window 'Open Level' being destroyed
+[2019.07.31-02.56.52:842][786]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.31-02.56.52:894][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/VATS.VATS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/VATS.VATS:PersistentLevel.VATS' with GeneratedClass '/Game/Levels/VATS.VATS_C' with ClassGeneratedBy '/Game/Levels/VATS.VATS:PersistentLevel.VATS'
+[2019.07.31-02.56.52:894][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.31-02.56.52:894][786]PIE: New page: PIE session: VATS (Jul 30, 2019, 12:56:52 PM)
+[2019.07.31-02.56.52:894][786]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VATS
+[2019.07.31-02.56.52:899][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004496s)
+[2019.07.31-02.56.52:899][786]LogAIModule: Creating AISystem for world VATS
+[2019.07.31-02.56.52:899][786]LogPlayLevel: PIE: World Init took: (0.000430s)
+[2019.07.31-02.56.52:899][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VATS.VATS to /Game/Levels/UEDPIE_0_VATS.VATS (0.005143s)
+[2019.07.31-02.56.52:929][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.07.31-02.56.52:936][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.31-02.56.52:949][786]LogInit: FAudioDevice initialized.
+[2019.07.31-02.56.52:977][786]LogLoad: Game class is 'GM_VATS_C'
+[2019.07.31-02.56.52:987][786]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VATS.VATS up for play (max tick rate 0) at 2019.07.30-19.56.52
+[2019.07.31-02.56.53:011][786]LogWorld: Bringing up level for play took: 0.034016
+[2019.07.31-02.56.53:086][786]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.07.31-02.56.53:086][786]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.07.31-02.56.53:170][786]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_VATS -0.673
+[2019.07.31-02.56.53:170][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/VATS.VATS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/VATS.VATS:PersistentLevel.VATS' with GeneratedClass '/Game/Levels/VATS.VATS_C' with ClassGeneratedBy '/Game/Levels/VATS.VATS:PersistentLevel.VATS'
+[2019.07.31-02.56.53:232][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:233][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:248][789]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:298][795]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:348][801]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:398][807]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:448][813]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:495][817]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:545][823]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:594][829]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:645][835]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:695][841]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:745][847]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:795][853]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:845][859]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:895][865]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:945][871]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.53:994][877]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:044][883]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:095][889]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:145][895]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:194][901]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:244][907]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:294][913]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:344][919]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:395][925]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:445][931]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:495][937]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:544][943]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:595][949]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:645][955]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:696][961]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:744][967]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:795][973]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:844][979]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:894][985]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:945][991]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.54:995][997]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:045][  3]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:094][  9]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:145][ 15]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:196][ 20]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:265][ 26]LogBlueprintUserMessages: [BP_Interactive_Console_2] I'm being selected!
+[2019.07.31-02.56.55:265][ 26]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:364][ 27]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:364][ 27]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:395][ 31]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:445][ 37]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:495][ 43]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:545][ 49]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:595][ 55]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:645][ 61]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:695][ 67]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.55:746][ 73]LogBlueprintUserMessages: [BP_Interactive_Console_2] I'm deselected
+[2019.07.31-02.56.55:746][ 73]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:795][ 79]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:845][ 85]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:896][ 91]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:946][ 97]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.55:995][103]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.56.56:045][109]LogBlueprintUserMessages: [BP_Interactive_Console_2] I'm being selected!
+[2019.07.31-02.56.56:045][109]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:095][115]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:145][121]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:195][127]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:245][133]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:295][139]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:344][145]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:395][151]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:446][157]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:495][163]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:545][169]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:596][175]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:646][181]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:695][187]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:745][193]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:795][199]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:846][205]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:895][211]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:945][217]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.56:995][223]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:045][229]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:094][235]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:145][241]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:195][247]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:245][253]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:295][259]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:345][265]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:395][271]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:446][277]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:495][283]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:545][289]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:595][295]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:644][301]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:695][307]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:745][313]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:795][319]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:845][325]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:895][331]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:945][337]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.57:995][343]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:045][349]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:095][355]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:145][361]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:195][367]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:245][373]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:296][379]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:346][385]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:395][391]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:445][397]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:495][403]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:545][409]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:595][415]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:645][421]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:695][427]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:745][433]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:796][439]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:845][445]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:895][451]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:945][457]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.58:995][463]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:045][469]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:095][475]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:112][477]LogBlueprintUserMessages: [BP_VATS_HUD_C_0] Hello
+[2019.07.31-02.56.59:146][481]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:195][487]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:245][493]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:295][499]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:345][505]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:395][511]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:445][517]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:495][523]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:512][525]LogBlueprintUserMessages: [BP_VATS_HUD_C_0] Hello
+[2019.07.31-02.56.59:546][529]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:595][535]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:645][541]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:695][547]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:745][553]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:795][559]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:845][565]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:895][571]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:945][577]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.56.59:995][583]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:045][589]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:095][595]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:145][601]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:195][607]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:245][613]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:295][619]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:345][625]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:395][631]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:446][637]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:496][643]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:545][649]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:596][655]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:645][661]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:695][667]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:745][673]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:795][679]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:846][685]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:895][691]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:946][697]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.00:995][703]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:045][709]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:095][715]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:146][721]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:195][727]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:245][733]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:295][739]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:345][745]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:395][751]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:446][757]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:496][763]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:545][769]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:595][775]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:645][781]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:695][787]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:745][793]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:795][799]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:846][805]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:896][811]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:945][817]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.01:995][823]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:045][829]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:095][835]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:146][841]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:195][847]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:246][853]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:296][859]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:345][865]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:395][871]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:445][877]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:495][883]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:546][889]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:596][895]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.02:646][901]LogBlueprintUserMessages: [BP_Interactive_Console_2] I'm deselected
+[2019.07.31-02.57.02:646][901]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:696][907]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:746][913]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:795][919]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:845][925]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:895][931]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:945][937]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.02:996][943]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] None was selected.
+[2019.07.31-02.57.03:046][949]LogBlueprintUserMessages: [BP_Interactive_Console_2] I'm being selected!
+[2019.07.31-02.57.03:046][949]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:096][955]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:146][961]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:196][967]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:246][973]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:296][979]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:346][985]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:395][991]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:445][997]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:496][  3]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:546][  9]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:595][ 15]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:645][ 21]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:695][ 27]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:745][ 33]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:795][ 39]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:846][ 45]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:896][ 51]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:945][ 57]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] BP_Interactive_Console_2 was selected.
+[2019.07.31-02.57.03:970][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/VATS.VATS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/VATS.VATS:PersistentLevel.VATS' with GeneratedClass '/Game/Levels/VATS.VATS_C' with ClassGeneratedBy '/Game/Levels/VATS.VATS:PersistentLevel.VATS'
+[2019.07.31-02.57.03:971][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.31-02.57.04:001][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.31-02.57.04:002][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/VATS.VATS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/VATS.VATS:PersistentLevel.VATS' with GeneratedClass '/Game/Levels/VATS.VATS_C' with ClassGeneratedBy '/Game/Levels/VATS.VATS:PersistentLevel.VATS'
+[2019.07.31-02.57.04:035][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.31-02.57.04:037][ 60]LogSlate: Slate User Unregistered.  User Index 8
+[2019.07.31-02.57.04:037][ 60]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.07.31-02.57.04:050][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.07.31-02.57.04:077][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.07.31-03.04.29:899][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.31-03.14.40:273][677]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole
+[2019.07.31-03.14.40:634][678]LogRenderer: Reallocating scene render targets to support 1148x640 Format 10 NumSamples 1 (Frame:1).
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.SKEL_BP_Interactive_LargeConsole_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.SKEL_BP_Interactive_LargeConsole_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:501][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.BP_Interactive_LargeConsole:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_LargeConsole.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:ReceiveTick' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Active' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Interactive' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Shape_Cube' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Screen' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Stand' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:OnVolume' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:Console_Interface' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.SKEL_BP_Interactive_Console_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Active' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Interactive' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Shape_Cube' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Screen' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Stand' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:OnVolume' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:Console_Interface' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:ReceiveTick' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:522][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive_Console.BP_Interactive_Console_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:ReceiveTick' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:BndEvt__OnVolume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:527][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:BndEvt__OnVolume_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:MyName' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:ScreenOn' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:Screen' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:Interactive' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:Shape_Cube' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:Stand' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:OnVolume' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.SKEL_BP_Console_C' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:MyName' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:ScreenOn' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:Screen' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:Interactive' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:Shape_Cube' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:Stand' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:528][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Console.BP_Console_C:OnVolume' ref from Metadata '/Game/BluePrints/Actors/BP_Console.PackageMetaData'
+[2019.07.31-03.15.01:562][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:562][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C:ReceiveTick' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C:DefaultSceneRoot' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.SKEL_BP_Interactive_C' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:563][128]LogMetaData: Removing '/Game/BluePrints/Actors/Consoles/BP_Interactive.BP_Interactive_C:DefaultSceneRoot' ref from Metadata '/Game/BluePrints/Actors/BP_Interactive.PackageMetaData'
+[2019.07.31-03.15.01:588][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_LargeConsoleFE99531342BC86E3F112F39CE5D9D877.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.uasset'
+[2019.07.31-03.15.01:629][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_Console71B482034240548F7621C198D8DC7CF7.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive_Console.uasset'
+[2019.07.31-03.15.01:642][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/Consoles/BP_Console" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Console.uasset" SILENT=true
+[2019.07.31-03.15.01:667][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_ConsoleE3059D8A4F30960A859157A646CFFBFC.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Console.uasset'
+[2019.07.31-03.15.01:671][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Console" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Console.uasset" SILENT=true
+[2019.07.31-03.15.01:691][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_ConsoleA76A94264F38F8B5882D4389DB8ED43E.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Console.uasset'
+[2019.07.31-03.15.01:695][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/Consoles/BP_Interactive" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive.uasset" SILENT=true
+[2019.07.31-03.15.01:704][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive987260E046770B8CDBAF70B7C1E9391B.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive.uasset'
+[2019.07.31-03.15.01:708][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Interactive" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Interactive.uasset" SILENT=true
+[2019.07.31-03.15.01:732][128]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive9E2D1FD240A5CC8BF7A61E8355815A13.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/BP_Interactive.uasset'
+[2019.07.31-03.15.01:944][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.07.31-03.15.01:974][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.07.31-03.15.02:005][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.07.31-03.15.02:032][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.07.31-03.15.09:750][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.31-03.15.14:100][531]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.31-03.15.24:276][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.31-03.15.26:152][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.31-03.15.56:875][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.07.31-03.15.56:882][554]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] InputAction Event references unknown Action 'Interact' for  InputAction Interact
+[2019.07.31-03.15.56:890][554]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] [1962.24] Compile of BP_PlayerCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/BluePrints/Pawns/BP_PlayerCharacter.BP_PlayerCharacter)
+[2019.07.31-03.15.56:922][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial_C' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:Get_TrashActive_bIsEnabled_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:Get_TrashActive_bIsEnabled_0.K2Node_FunctionResult_0' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:Get_TrashSlider_Value_0.K2Node_FunctionResult_0' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.BP_VATS_HUD_Initial:Get_TrashSlider_Value_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:925][554]LogMetaData: Removing '/Game/UI/BP_VATS_HUD_Initial.SKEL_BP_VATS_HUD_Initial_C' ref from Metadata '/Game/UI/BP_VATS_HUD.PackageMetaData'
+[2019.07.31-03.15.56:940][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_VATS_HUD_Initial" FILE="../../../../../Repos/VATS/VATS_Project/Content/UI/BP_VATS_HUD_Initial.uasset" SILENT=true
+[2019.07.31-03.15.56:974][554]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_VATS_HUD_InitialA7E9E5E24BA74228399204A51DA03E00.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/UI/BP_VATS_HUD_Initial.uasset'
+[2019.07.31-03.15.57:102][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.07.31-03.15.57:134][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.07.31-03.15.57:166][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.07.31-03.15.57:173][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Pawns/BP_PlayerCharacter" FILE="../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Pawns/BP_PlayerCharacter.uasset" SILENT=true
+[2019.07.31-03.15.57:275][554]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_PlayerCharacterA2BB826946FF4E64AE75DF953F2DF3B9.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Pawns/BP_PlayerCharacter.uasset'
+[2019.07.31-03.15.57:320][554]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_Console3F6E4F5F4812F31BD89720AF07F55CCA.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive_Console.uasset'
+[2019.07.31-03.17.08:958][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.07.31-03.17.08:958][ 92]LogMetaData: Removing '/Game/UI/W_VATS_HUD_Pages.SKEL_W_VATS_HUD_Pages_C' ref from Metadata '/Game/UI/W_VATS_HUD_Paged.PackageMetaData'
+[2019.07.31-03.17.08:958][ 92]LogMetaData: Removing '/Game/UI/W_VATS_HUD_Pages.W_VATS_HUD_Pages_C' ref from Metadata '/Game/UI/W_VATS_HUD_Paged.PackageMetaData'
+[2019.07.31-03.17.08:958][ 92]LogMetaData: Removing '/Game/UI/W_VATS_HUD_Pages.W_VATS_HUD_Pages:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/W_VATS_HUD_Paged.PackageMetaData'
+[2019.07.31-03.17.08:959][ 92]LogMetaData: Removing '/Game/UI/W_VATS_HUD_Pages.W_VATS_HUD_Pages:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/W_VATS_HUD_Paged.PackageMetaData'
+[2019.07.31-03.17.08:959][ 92]LogMetaData: Removing '/Game/UI/W_VATS_HUD_Pages.W_VATS_HUD_Pages:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/W_VATS_HUD_Paged.PackageMetaData'
+[2019.07.31-03.17.08:972][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/W_VATS_HUD_Pages" FILE="../../../../../Repos/VATS/VATS_Project/Content/UI/W_VATS_HUD_Pages.uasset" SILENT=true
+[2019.07.31-03.17.08:980][ 92]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/W_VATS_HUD_Pages2AA6DFB94E8E84D104F8CD84B67D85D2.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/UI/W_VATS_HUD_Pages.uasset'
+[2019.07.31-03.17.09:111][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.07.31-03.17.09:145][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.07.31-03.17.09:175][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.07.31-03.17.12:153][440]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/W_VATS_HUD_Pages.W_VATS_HUD_Pages
+[2019.07.31-03.17.12:584][440]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.07.31-03.17.43:719][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.07.31-03.17.43:732][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VATS" FILE="../../../../../Repos/VATS/VATS_Project/Saved/Autosaves/Game/Levels/VATS_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.07.31-03.17.43:961][112]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/VATS_Auto1F44C233B40ED09D256D158882A660F90.tmp' to '../../../../../Repos/VATS/VATS_Project/Saved/Autosaves/Game/Levels/VATS_Auto1.umap'
+[2019.07.31-03.17.43:991][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VATS' took 0.344
+[2019.07.31-03.17.43:991][112]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.344
+[2019.07.31-03.17.43:996][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/BP_PlayerHUD] ([1] browsable assets)...
+[2019.07.31-03.17.43:996][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/BP_PlayerHUD]
+[2019.07.31-03.17.43:996][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_PlayerHUD" FILE="../../../../../Repos/VATS/VATS_Project/Saved/Autosaves/Game/UI/BP_PlayerHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.07.31-03.17.44:033][112]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_PlayerHUD_Auto1BA26D7B2494560DB114AFDBE945A32A7.tmp' to '../../../../../Repos/VATS/VATS_Project/Saved/Autosaves/Game/UI/BP_PlayerHUD_Auto1.uasset'
+[2019.07.31-03.17.44:033][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole] ([1] browsable assets)...
+[2019.07.31-03.17.44:033][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole]
+[2019.07.31-03.17.44:048][112]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_LargeConsole_AutoE638B97D41F790DA6CB531BC0853BEFA.tmp' to '../../../../../Repos/VATS/VATS_Project/Saved/Autosaves/Game/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole_Auto1.uasset'
+[2019.07.31-03.17.44:048][112]LogFileHelpers: Auto-saving content packages took 0.052
+[2019.07.31-04.04.25:935][513]LogUObjectHash: Compacting FUObjectHashTables data took   7.58ms
+[2019.07.31-04.04.27:181][513]LogSlate: Window 'Save Content' being destroyed
+[2019.07.31-04.04.27:221][513]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_Interactive_LargeConsole3E8EC4004DA73A409FDA77BD19C87E4D.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/BluePrints/Actors/Consoles/BP_Interactive_LargeConsole.uasset'
+[2019.07.31-04.04.27:226][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VATS" FILE="../../../../../Repos/VATS/VATS_Project/Content/Levels/VATS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.07.31-04.04.27:260][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.07.31-04.04.27:461][513]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/VATSE73E62CC4FC56DD76B7F56AF4FA764FB.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/Levels/VATS.umap'
+[2019.07.31-04.04.27:485][513]LogFileHelpers: Saving map 'VATS' took 0.260
+[2019.07.31-04.04.27:486][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_PlayerHUD" FILE="../../../../../Repos/VATS/VATS_Project/Content/UI/BP_PlayerHUD.uasset" SILENT=true
+[2019.07.31-04.04.27:512][513]LogSavePackage: Moving '../../../../../Repos/VATS/VATS_Project/Saved/BP_PlayerHUD1E55AA5642095AF29C38D2A2CC3C10A3.tmp' to '../../../../../Repos/VATS/VATS_Project/Content/UI/BP_PlayerHUD.uasset'
+[2019.07.31-04.04.28:001][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.31-04.04.28:337][513]LogSlate: Window 'VATS_Project - Unreal Editor' being destroyed
+[2019.07.31-04.04.28:659][514]Cmd: QUIT_EDITOR
+[2019.07.31-04.04.29:768][514]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.31-04.04.29:806][514]LogExit: Preparing to exit.
+[2019.07.31-04.04.30:251][514]LogDirectoryWatcher: A directory notification failed for 'D:/Repos/VATS/VATS_Project/Content/', and we were unable to create a new request.
+[2019.07.31-04.04.30:526][514]LogExit: Editor shut down
+[2019.07.31-04.04.30:527][514]LogExit: Transaction tracking system shut down
+[2019.07.31-04.04.31:883][514]LogExit: Object subsystem successfully closed.
+[2019.07.31-04.04.31:936][514]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.31-04.04.31:959][514]LogD3D11RHI: Shutdown
+[2019.07.31-04.04.31:959][514]LogD3D11RHI: CleanupD3DDevice
+[2019.07.31-04.04.31:976][514]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.31-04.04.31:976][514]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.31-04.04.31:986][514]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.31-04.04.31:986][514]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.31-04.04.31:986][514]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.31-04.04.31:986][514]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.31-04.04.32:122][514]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.31-04.04.33:149][514]LogModuleManager: Shutting down and abandoning module SequencerWidgets (654)
+[2019.07.31-04.04.33:149][514]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (652)
+[2019.07.31-04.04.33:149][514]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
+[2019.07.31-04.04.33:149][514]LogModuleManager: Shutting down and abandoning module Voice (648)
+[2019.07.31-04.04.33:161][514]LogModuleManager: Shutting down and abandoning module BlueprintGraph (646)
+[2019.07.31-04.04.33:161][514]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.07.31-04.04.33:161][514]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.07.31-04.04.33:161][514]LogModuleManager: Shutting down and abandoning module WorldBrowser (640)
+[2019.07.31-04.04.33:171][514]LogModuleManager: Shutting down and abandoning module AddContentDialog (638)
+[2019.07.31-04.04.33:298][514]LogModuleManager: Shutting down and abandoning module WidgetCarousel (637)
+[2019.07.31-04.04.33:298][514]LogModuleManager: Shutting down and abandoning module EditorWidgets (634)
+[2019.07.31-04.04.33:298][514]LogModuleManager: Shutting down and abandoning module CollectionManager (632)
+[2019.07.31-04.04.33:305][514]LogModuleManager: Shutting down and abandoning module StatsViewer (630)
+[2019.07.31-04.04.33:311][514]LogModuleManager: Shutting down and abandoning module FoliageEdit (628)
+[2019.07.31-04.04.33:319][514]LogModuleManager: Shutting down and abandoning module LandscapeEditor (626)
+[2019.07.31-04.04.33:335][514]LogModuleManager: Shutting down and abandoning module MeshPaintMode (624)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (622)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module ActorPickerMode (620)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module GeometryMode (618)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module TextureAlignMode (616)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module BspMode (614)
+[2019.07.31-04.04.33:342][514]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (612)
+[2019.07.31-04.04.33:361][514]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (610)
+[2019.07.31-04.04.33:364][514]LogModuleManager: Shutting down and abandoning module AutomationWorker (608)
+[2019.07.31-04.04.33:368][514]LogModuleManager: Shutting down and abandoning module OculusMR (606)
+[2019.07.31-04.04.33:368][514]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (604)
+[2019.07.31-04.04.33:374][514]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (602)
+[2019.07.31-04.04.33:387][514]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (600)
+[2019.07.31-04.04.33:400][514]LogModuleManager: Shutting down and abandoning module PlacementMode (599)
+[2019.07.31-04.04.33:401][514]LogModuleManager: Shutting down and abandoning module MaterialEditor (598)
+[2019.07.31-04.04.33:410][514]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (594)
+[2019.07.31-04.04.33:424][514]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
+[2019.07.31-04.04.33:424][514]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
+[2019.07.31-04.04.33:424][514]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
+[2019.07.31-04.04.33:424][514]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
+[2019.07.31-04.04.33:424][514]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
+[2019.07.31-04.04.33:431][514]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
+[2019.07.31-04.04.33:466][514]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (560)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (558)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (556)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module CharacterAI (554)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module SmartSnapping (552)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module SessionServices (550)
+[2019.07.31-04.04.33:488][514]LogModuleManager: Shutting down and abandoning module MeshPaint (548)
+[2019.07.31-04.04.33:517][514]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2019.07.31-04.04.33:517][514]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2019.07.31-04.04.33:517][514]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2019.07.31-04.04.33:532][514]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2019.07.31-04.04.33:545][514]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2019.07.31-04.04.33:556][514]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2019.07.31-04.04.33:577][514]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2019.07.31-04.04.33:596][514]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2019.07.31-04.04.33:596][514]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2019.07.31-04.04.33:596][514]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2019.07.31-04.04.33:597][514]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2019.07.31-04.04.33:597][514]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2019.07.31-04.04.34:423][514]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2019.07.31-04.04.34:424][514]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.07.31-04.04.34:467][514]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.07.31-04.04.34:478][514]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.07.31-04.04.34:478][514]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.07.31-04.04.34:480][514]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.07.31-04.04.34:481][514]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2019.07.31-04.04.34:481][514]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2019.07.31-04.04.34:493][514]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module OculusEditor (396)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.07.31-04.04.34:723][514]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (368)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (366)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (364)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (352)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module VariantManagerContent (340)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (338)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (330)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.07.31-04.04.34:724][514]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.07.31-04.04.34:730][514]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.07.31-04.04.34:742][514]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.07.31-04.04.34:761][514]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2019.07.31-04.04.34:773][514]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.31-04.04.34:794][514]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.31-04.04.34:894][514]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.31-04.04.35:023][514]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.07.31-04.04.35:023][514]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.07.31-04.04.35:023][514]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.07.31-04.04.35:029][514]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.07.31-04.04.35:029][514]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.07.31-04.04.35:037][514]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.07.31-04.04.35:060][514]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.07.31-04.04.35:096][514]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.07.31-04.04.35:096][514]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.07.31-04.04.35:096][514]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.07.31-04.04.35:106][514]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.07.31-04.04.35:108][514]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.07.31-04.04.35:122][514]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.07.31-04.04.35:122][514]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.07.31-04.04.35:122][514]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.07.31-04.04.35:122][514]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.07.31-04.04.35:133][514]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.07.31-04.04.35:146][514]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.07.31-04.04.35:149][514]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.07.31-04.04.35:149][514]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.07.31-04.04.35:149][514]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.07.31-04.04.35:168][514]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.07.31-04.04.35:168][514]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.07.31-04.04.35:169][514]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.07.31-04.04.35:169][514]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.07.31-04.04.35:230][514]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.07.31-04.04.35:244][514]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.07.31-04.04.35:244][514]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.07.31-04.04.35:270][514]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.07.31-04.04.35:286][514]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.07.31-04.04.35:299][514]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.07.31-04.04.35:341][514]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.07.31-04.04.35:341][514]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.07.31-04.04.35:341][514]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.07.31-04.04.35:349][514]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.07.31-04.04.35:349][514]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.07.31-04.04.35:369][514]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.07.31-04.04.35:370][514]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.07.31-04.04.35:372][514]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.07.31-04.04.35:384][514]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.07.31-04.04.35:393][514]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.07.31-04.04.35:394][514]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.07.31-04.04.35:406][514]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.07.31-04.04.35:418][514]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.07.31-04.04.35:423][514]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.07.31-04.04.35:472][514]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.07.31-04.04.35:492][514]LogDerivedDataCache: Shutdown
+[2019.07.31-04.04.35:492][514]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.07.31-04.04.35:492][514]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.07.31-04.04.35:495][514]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.07.31-04.04.35:507][514]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.07.31-04.04.35:518][514]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.07.31-04.04.35:529][514]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.07.31-04.04.35:530][514]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.07.31-04.04.35:538][514]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.07.31-04.04.35:539][514]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.07.31-04.04.35:539][514]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.07.31-04.04.35:610][514]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.07.31-04.04.35:614][514]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.07.31-04.04.35:614][514]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.07.31-04.04.35:615][514]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.07.31-04.04.35:615][514]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.07.31-04.04.35:620][514]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.07.31-04.04.35:620][514]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.07.31-04.04.35:620][514]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.07.31-04.04.35:635][514]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.07.31-04.04.35:635][514]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.07.31-04.04.35:643][514]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.07.31-04.04.35:651][514]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.07.31-04.04.35:658][514]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.07.31-04.04.35:662][514]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.07.31-04.04.35:662][514]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.07.31-04.04.35:665][514]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.07.31-04.04.35:665][514]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.07.31-04.04.35:688][514]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.07.31-04.04.35:707][514]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.31-04.04.35:708][514]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.07.31-04.04.35:716][514]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.07.31-04.04.35:716][514]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.07.31-04.04.35:716][514]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.07.31-04.04.35:716][514]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.07.31-04.04.35:717][514]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.07.31-04.04.35:734][514]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.07.31-04.04.35:762][514]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.07.31-04.04.35:762][514]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.31-04.04.35:762][514]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5447047-4DD1-0A4F-2F41-EFA062DCFE15%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=a5de0a3f42934ee096dcb48536703b64%7C44b6fa587be64b1fa21701b0698d9f53%7C3a9203fe-7467-42f0-8c6b-677504f1c687&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.31-04.04.35:787][514]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.07.31-04.04.35:789][514]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.07.31-04.04.35:790][514]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.07.31-04.04.35:796][514]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.07.31-04.04.35:796][514]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.07.31-04.04.35:796][514]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.07.31-04.04.35:855][514]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.07.31-04.04.35:876][514]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.07.31-04.04.35:895][514]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
